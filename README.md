@@ -22,7 +22,7 @@ Before running the project, make sure you have the following installed:
 You can install the required Python packages using pip:
 
 ```bash
-pip install Flask Flask-PyMongo Flask-Bcrypt
+pip install Flask Flask-PyMongo Flask-Bcrypt pymongo
 ```
 
 ## Setup
@@ -30,7 +30,7 @@ pip install Flask Flask-PyMongo Flask-Bcrypt
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/YourUsername/flask-mongo-auth.git
+   git clone https://github.com/Lettable/flask-mongo-auth.git
    ```
 
 2. **Navigate to the project directory:**
@@ -55,9 +55,8 @@ pip install Flask Flask-PyMongo Flask-Bcrypt
 
 - `app.py`: The main Flask application file.
 - `templates/`: Directory containing HTML templates for signup and login pages.
-- `static/`: Directory containing static files like CSS and JavaScript.
-- `config.py`: Configuration settings for Flask and MongoDB.
-
+- `static/`: Directory containing static files like CSS and JavaScript and Images.
+- 
 ## Usage
 
 1. **Signup:**
@@ -67,10 +66,6 @@ pip install Flask Flask-PyMongo Flask-Bcrypt
 2. **Login:**
 
    Navigate to `http://127.0.0.1:5000/login` to log in with your credentials.
-
-3. **Logout:**
-
-   After logging in, you can log out by navigating to `http://127.0.0.1:5000/logout`.
 
 ## Code Overview
 
