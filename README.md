@@ -1,5 +1,4 @@
-```markdown
-# flask-mongo-auth
+# Flask Auth App 
 
 A simple Flask application demonstrating user authentication with MongoDB. Includes features for user signup, login, and session management with secure password hashing.
 
@@ -84,10 +83,6 @@ pip install Flask Flask-PyMongo Flask-Bcrypt
 
 Feel free to fork the repository and submit pull requests. If you find any issues or have suggestions, please open an issue or contact me.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
-For any questions or feedback, you can reach me at [your.email@example.com](mailto:your.email@example.com).
+For any questions or feedback, you can reach me at [Mirzya](tg://openmessage?user_id=6404281440).
